@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: hsl(233, 47%, 7%);
+  color: hsl(0, 0%, 100%);
+  font-size: 15px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 36px;
+  padding: 50px 60px 0 50px;
+}
+
+h1 span {
+  color: hsl(277, 64%, 61%);
+}
+
+.description {
+  padding: 0 60px 0 50px;
+  line-height: 1.5rem;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.card-container {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: auto;
+  align-content: center;
+  background-color: hsl(244, 38%, 16%);
+  height: 400px;
+  width: 1000px;
+  margin: 20vh auto 100px;
+  border-radius: 10px;
+}
+
+.card-item {
+  width: 50%;
+  flex: 1 0 auto;
+}
+
+.img {
+  position: absolute;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  border-radius: 0 10px 10px 0;
+}
+
+.filter {
+  background-color: hsla(277, 64%, 61%);
+  opacity: 40%;
+  filter: contrast(500%) brightness(50%);
+  position: absolute;
+  right: 0;
+  width: 50%;
+  height: 100%;
+  border-radius: 0 10px 10px 0;
+}
+
+.stats-container {
+  font-family: "Lexend Deca", sans-serif;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: auto;
+  align-content: space-around;
+  padding: 20px 60px 0 50px;
+}
+.stats-container p {
+  text-transform: uppercase;
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 12px;
+}
+
+.stats-container h3 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.stats {
+  flex: 1 0 auto;
+  padding: 0;
+}
+
+.attribution {
+  font-size: 14px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}

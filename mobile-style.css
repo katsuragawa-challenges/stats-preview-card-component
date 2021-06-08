@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+
+body {
+  font-family: "Inter", sans-serif;
+  background-color: hsl(233, 47%, 7%);
+  color: hsl(0, 0%, 100%);
+  font-size: 15px;
+  text-align: center;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-color: hsl(244, 38%, 16%);
+  margin: 30px;
+  height: 800px;
+  border-radius: 0 0 10px 10px;
+}
+
+h1 {
+  font-size: 26px;
+  padding: 20px;
+}
+
+span {
+  color: hsl(277, 64%, 61%);
+}
+
+img {
+  border-radius: 10px 10px 0 0;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+h3 {
+  color:hsl(0, 0%, 100%);
+  font-size: 26px;
+  margin: 0;
+  padding: 0;
+}
+
+.card-content {
+  position: absolute;
+  bottom: 0;
+}
+
+.description {
+  padding: 0 20px;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.stats-container{
+  padding-top: 20px;
+}
+
+.stats {
+  padding: 10px;
+}
+
+.stats p {
+  text-transform: uppercase;
+  color: hsla(0, 0%, 100%, 0.6);
+  font-size: 13px;
+}
+
+.attribution {
+  font-size: 10px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
